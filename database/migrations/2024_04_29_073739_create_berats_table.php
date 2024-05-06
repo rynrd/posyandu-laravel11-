@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('berats', function (Blueprint $table) {
             $table->id();
             $table->date('tanggal');
-            $table->integer('berat');
+            $table->string('berat');
             $table->foreignId('anak_id')->constrained('anaks');
             $table->timestamps();   
         });

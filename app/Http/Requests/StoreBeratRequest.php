@@ -24,7 +24,7 @@ class StoreBeratRequest extends FormRequest
     {
         return [
             'tanggal' => 'required',
-            'berat_badan' => 'required',
+            'berat' => 'required',
         ];
     }
 }

@@ -24,7 +24,6 @@ class DatabaseSeeder extends Seeder
         Anak::factory(30)
             ->hasBerats(30)
             ->hasImunisasis(30)
-            ->hasVitamins(30)
             ->create();
     }
 }

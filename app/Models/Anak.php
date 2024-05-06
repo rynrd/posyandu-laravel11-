@@ -28,10 +28,4 @@ class Anak extends Model
     {
         return $this->hasMany(Imunisasi::class);
     }
-
-    public function vitamina()
-    {
-        return $this->hasMany(Vitamin::class);
-    }
-
 }
