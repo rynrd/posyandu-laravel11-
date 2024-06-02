@@ -38,8 +38,8 @@ export default function Show({ auth, anak }) {
             <div className=" p-6 flex flex-wrap gap-4 mt-4">
               <div className="flex-auto">
                 <Link
-                  href={route("berat.index", { anak_id: anak.id })}
-                  active={route().current("berat.index")}
+                // href={route("berat.index", { anak_id: anak.id })}
+                // active={route().current("berat.index")}
                 >
                   <div className="bg-white dark:bg-gray-500 rounded-lg shadow-md p-4 text-center">
                     <ScaleIcon className="w-20 h-20 mx-auto mb-2" />
@@ -49,8 +49,8 @@ export default function Show({ auth, anak }) {
               </div>
               <div className="flex-auto">
                 <Link
-                  href={route("imunisasi.index", { anak_id: anak.id })}
-                  active={route().current("imunisasi.index")}
+                // href={route("imunisasi.index", { anak_id: anak.id })}
+                // active={route().current("imunisasi.index")}
                 >
                   <div className="bg-white dark:bg-gray-500 rounded-lg shadow-md p-4 text-center">
                     <EyeDropperIcon className="w-20 h-20 mx-auto mb-2" />

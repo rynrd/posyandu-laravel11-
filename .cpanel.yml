@@ -1,4 +1,0 @@
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/xjzevedw/public_html # Tambahkan /<nama_folder_aplikasi> jika diperlukan
-    - /bin/cp -r * $DEPLOYPATH # Salin semua file dan folder secara rekursif ke $DEPLOYPATH

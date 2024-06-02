@@ -31,8 +31,8 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/layanan', [LayananController::class, 'index'])->name('layanan.index');
     Route::get('/wawasan', [WawasanController::class, 'index'])->name('wawasan.index');
     Route::resource('anak', AnakController::class);
-    Route::resource('berat', BeratController::class);
-    Route::resource('imunisasi', ImunisasiController::class);
+    // Route::resource('berat', BeratController::class);
+    // Route::resource('imunisasi', ImunisasiController::class);
 });
 
 Route::middleware('auth')->group(function () {
